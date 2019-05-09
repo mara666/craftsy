@@ -1,0 +1,50 @@
+body{
+    font-family: sans-serif;
+    background-image: url("../img/bg-2.png");
+}
+
+header{
+    font-family: sans-serif;
+    width: 1140px;
+    background-color: orangered;
+    margin: 0 auto;
+}
+
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+form{
+    width: 350px;
+    margin: 0 auto;
+    line-height: 1.5em;
+}
+
+form h1{
+    text-align: center;
+}
+
+.caja_texto{
+    width: 350px;
+    height: 2em;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.recordarme{
+    font-weight: bold;
+    color: black;
+    font-size: 0.8em;
+    overflow: hidden;
+    margin-left: 237px;
+}
+
+.obligatorio{
+    font-weight: bold;
+    color: red;
+    font-size: 0.8em;
+}
+
