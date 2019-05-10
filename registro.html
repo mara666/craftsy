@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,48 +8,75 @@
     <title>Home</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
-        <img src="img/logo.png" alt="logo">
-        <span>
-            <ul>
-                <li>Menú 1</li>
-                <li>Menú 2</li>
-                <li>Menú 3</li>
+        <div class="f-l">
+            <a href="index.html" id="logo"><img src="img/logo.png" alt="logo"></a>
+        </div>
+        <div class="f-l">
+            <ul class="listaEnLinea">
+                <li><a href="">Smartphones</a></li>
+                <li><a href="">Tablets</a></li>
+                <li><a href="">Computadoras</a></li>
             </ul>
-        </span>
-        <span>
-            <ul>
-                <li>Login</li>
-                <li>Registro</li>
+        </div>
+        <div class="f-r">
+            <ul class="listaEnLinea">
+                <li><a href="login.html">Login</a></li>
+                <li><a href="registro.html">Registro</a></li>
             </ul>
-        </span>
+        </div>
     </header>
     <main>
         <form action="home.html">
-            <h1>BIENVENIDO</h1>
+            <h1>Bienvenido</h1>
             <div class="negrita">
-                <label for="nombre"></label>Nombre
+                <label for="nombre">Nombre</label>
                 <br>
                 <input type="text" class="caja_texto" name="nombre" id="nombre" placeholder=" Nombre">
-            </div>            
-            <br>
-            <div class="negrita">
-                <label for="email"></label>Email
                 <br>
-                <input type="email" class="caja_texto" name="email" id="email" placeholder=" Email">
-            </div>
-            <br>
-            <div class="recordarme">
-                <input type="checkbox" name="password" id="password" checked> Recordarme
             </div>
             <div class="obligatorio">
-                <p>La combinación ingresada de email y contraseña no es válida.</p>
+                <label>Obligatorio</label>
             </div>
+            <br>
+            <br>
+            <div class="negrita">
+                <label for="email">Email</label>
+                <br>
+                <input type="email" class="caja_texto" name="email" id="email" placeholder=" Email">
+                <br>
+            </div>
+            <div class="obligatorio">
+                <label>Obligatorio</label>
+            </div>
+            <br>
+            <br>
+            <div class="negrita">
+                <label for="contraseña">Contraseña</label>
+                <br>
+                <input type="contraseña" class="caja_texto" name="contraseña" id="contraseña" placeholder=" Contraseña">
+                <br>
+            </div>
+            <div class="obligatorio">
+                <label>Obligatorio</label>
+            </div>
+            <br>
+            <br>
+            <h4>Género</h4>
+            <input type="radio" name="m" id="m" checked value="m">Masculino
+            <input type="radio" name="f" id="f" value="f">Femenino
+            <input type="radio" name="o" id="o" value="o">Otro
+            <br>
+            <br>
+
             <div>
-                <button>Ingresar</button>
+                <button class="button_inicio">Registrarme</button>
+                <button class="button_inicio">Cancelar</button>
             </div>
         </form>
     </main>
 </body>
+
 </html>
