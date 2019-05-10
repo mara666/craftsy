@@ -4,10 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Login</title>
+    <title>Home</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <header>
+        <img src="img/logo.png" alt="logo">
+        <span>
+            <ul>
+                <li>Menú 1</li>
+                <li>Menú 2</li>
+                <li>Menú 3</li>
+            </ul>
+        </span>
+        <span>
+            <ul>
+                <li>Login</li>
+                <li>Registro</li>
+            </ul>
+        </span>
+    </header>
+    <main>
+        <form action="home.html">
+            <h1>BIENVENIDO</h1>
+            <div class="negrita">
+                <label for="nombre"></label>Nombre
+                <br>
+                <input type="text" class="caja_texto" name="nombre" id="nombre" placeholder=" Nombre">
+            </div>            
+            <br>
+            <div class="negrita">
+                <label for="email"></label>Email
+                <br>
+                <input type="email" class="caja_texto" name="email" id="email" placeholder=" Email">
+            </div>
+            <br>
+            <div class="recordarme">
+                <input type="checkbox" name="password" id="password" checked> Recordarme
+            </div>
+            <div class="obligatorio">
+                <p>La combinación ingresada de email y contraseña no es válida.</p>
+            </div>
+            <div>
+                <button>Ingresar</button>
+            </div>
+        </form>
+    </main>
 </body>
 </html>
