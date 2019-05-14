@@ -14,6 +14,28 @@ body{
     float: right;
 }
 
+.publicidades{
+    width: 98%;
+    padding-left: 1%;
+}
+
+.caja_publi{
+    background-color: white;
+    border: solid 1px lightgray;
+
+}
+
+.caja_tutoriales{
+    background-color: white;
+    border: solid 1px lightgray;
+}
+
+.caja_titulo{
+    background-color: white;
+    border: solid 1px lightgray;
+    padding: 10px;
+}
+
 /* Encabezado */
 
 header{
@@ -53,6 +75,8 @@ header a{
 main{
     width: 90%;
     margin: 0 auto;
+    overflow: hidden;
+    margin-top: 20px;
 }
 
 form{
@@ -109,5 +133,78 @@ form h1{
     color: white;
 }
 
+/*Section*/
+
+section{
+    width: 72%;
+    float: left;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+section article{
+    width: 105%;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+
+section article div h2{
+    margin: 0 auto;
+}
+
+section article img{
+    width: 97%;
+    float: left;
+    display: block;
+    box-sizing: border-box;
+    border: solid 1px lightgray;
+}
+
+section article div{
+    width: 97%;
+    box-sizing: border-box;
+}
+
+.button_section{
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    background-color: orangered;
+    padding: 10px;
+    border-style: none;
+}
+
+/*Aside*/
+
+aside{
+    width: 26%;
+    float: right;
+    box-sizing: border-box;
+    overflow: hidden;
+}
 
 
+aside article {
+    margin-bottom: 1px;
+    width: 99%;
+    float: left;
+}
+
+
+aside div article p{
+    position: relative;
+    left: 15px;
+}
+
+aside div article img{
+    width: 30%;
+    padding: 10px;
+    float: left;
+    display: block;
+}
+
+.articulos{
+    float: left;
+    width: 49%;
+}
